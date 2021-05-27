@@ -2,15 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
     .titulo-principal
       .titulo-principal__numero
         .h3 3
       .h3 Plataformas de comercio financiera
-    
-    p.mb-4 A medida que las transacciones en línea siguen aumentando y se convierten en una parte importante de la economía mundial, la capacidad de aceptar pagos en línea adquiere mayor importancia para las empresas. El crecimiento del gasto en Internet, junto con la necesidad imperiosa de transacciones seguras, aumenta la importancia de los sistemas de pago en línea. 
+
+    p.mb-4 A medida que las transacciones en línea siguen aumentando y se convierten en una parte importante de la economía mundial, la capacidad de aceptar pagos en línea adquiere mayor importancia para las empresas. El crecimiento del gasto en Internet, junto con la necesidad imperiosa de transacciones seguras, aumenta la importancia de los sistemas de pago en línea.
     .cajon.color-secundario.p-4.mb-5
-        p Los sistemas de pago en línea pueden definirse en términos generales como los medios y procesos en la realización de transacciones en línea; sin embargo, esta descripción puede ampliarse para las conexiones monetarias en línea entre vendedores, compradores, instituciones financieros e intermediarios. Estos sistemas existen desde hace años, pero ahora se están convirtiendo en omnipresentes con el uso cada vez más común desde Internet, pues algunas de las ventajas que ofrecen son mayor eficiencia del flujo de caja, transacciones garantizadas, reducción de costos, mayor protección de la información sensible y protección del proveedor de pagos. Dado que el fraude es una preocupación frecuente.
+      p Los sistemas de pago en línea pueden definirse en términos generales como los medios y procesos en la realización de transacciones en línea; sin embargo, esta descripción puede ampliarse para las conexiones monetarias en línea entre vendedores, compradores, instituciones financieros e intermediarios. Estos sistemas existen desde hace años, pero ahora se están convirtiendo en omnipresentes con el uso cada vez más común desde Internet, pues algunas de las ventajas que ofrecen son mayor eficiencia del flujo de caja, transacciones garantizadas, reducción de costos, mayor protección de la información sensible y protección del proveedor de pagos. Dado que el fraude es una preocupación frecuente.
 
     .h6.mb-5.text-center Planificación estratégica
     .row.mb-5.justify-content-center
@@ -81,7 +80,7 @@
                 .lista-ol--cuadro__vineta
                   span 9
                 | Stripe en Colombia
-              
+
       .col-lg-5.align-self-center
         figure
           img(
@@ -101,13 +100,17 @@
 
     .row.mb-4.justify-content-center
       .col-lg-10.align-self-center
-        .tabla-b.mb-5  
+        .tabla-b.mb-5 
           table
             caption Tabla 2: Modelos gateway y agregadorg
             thead.text-center
               tr
-                th(style="width:50%; background-color:#7b3cee; color:white; padding:1rem 0.5rem") Modelo gateway
-                th(style="width:50%; background-color:#7b3cee; color:white; padding:1rem 0.5rem") Modelo agregador
+                th(
+                  style='width: 50%; background-color: #7b3cee; color: white; padding: 1rem 0.5rem'
+                ) Modelo gateway
+                th(
+                  style='width: 50%; background-color: #7b3cee; color: white; padding: 1rem 0.5rem'
+                ) Modelo agregador
             tbody.text-center
               tr
                 td Dinero en cuentas propias
@@ -119,50 +122,73 @@
                 td Costo por transacción con un mínimo mensual
                 td Costo porcentual más la transacción. No existe un cargo fijo mensual
               tr
-                td Se debe realizar administración  del dinero
+                td Se debe realizar administración del dinero
                 td El dinero se recauda en la pasarela de manera directa
               tr
                 td Opera a través del sistema financiero
                 td Opera a través del sistema financiero
-              
+
     .cajon.color-secundario.p-4.mb-5
-          p Además de conocer los beneficios que se tienen desde los modelos gateway y agregador, es importante conocer las pasarelas de pago y la relación de las tarifas en el modelo agregador para una visión de los costos en su implementación.
+      p Además de conocer los beneficios que se tienen desde los modelos gateway y agregador, es importante conocer las pasarelas de pago y la relación de las tarifas en el modelo agregador para una visión de los costos en su implementación.
 
     .row.mb-4.justify-content-center
       .col-lg-10.align-self-center
-        .tabla-b.mb-5  
+        .tabla-b.mb-5 
           table
             caption Tabla 3: Tarifas de transacciones
             thead.text-center
               tr
-                th(style="width:20%; background-color:#7b3cee; color:white; padding:1rem 0.5rem") Empresa
-                th(style="width:80%; background-color:#7b3cee; color:white; padding:1rem 0.5rem") Tarifas de las transacciones en modelo agregador
+                th(
+                  style='width: 30%; background-color: #7b3cee; color: white; padding: 1rem 0.5rem'
+                ) Empresa
+                th(
+                  style='width: 70%; background-color: #7b3cee; color: white; padding: 1rem 0.5rem'
+                ) Tarifas de las transacciones en modelo agregador
             tbody
               tr
-                th Placetopay Evertec
+                th.text-center Placetopay Evertec
                 td Varían de acuerdo al monto recaudado o al medio de pago elegido. Generalmente es 3.5% + $1.050 (mínimo $3.000 pesos) sobre el valor de la venta, aunque esta tarifa podría bajar según las especificaciones de tu negocio.
               tr
-                th PayU
+                th.text-center PayU
                 td Si vendes menos de $100 millones al mes, la tarifa es 3,49% + $900. En caso de superar esa cifra de ventas, hay flexibilidad para renegociar los precios.
               tr
-                th EpayCo
-                td PENDIENTE
+                th.text-center EpayCo
+                td 
+                  | Esta pasarela tiene dos tarifas dependiendo de si tienes o no cuenta en Davivienda: Otros bancos: 2.99 % + $900 por transacción exitosa.
+
+                  br
+                  br
+                  | Cuenta en Davivienda: 2.68 % + $900 por transacción exitosa con cuatro retiros gratis al mes.
               tr
-                th Zona Pagos
+                th.text-center Zona Pagos
                 td No especifican los precios en su web.
 
               tr
-                th Pagos Inteligentes
+                th.text-center Pagos Inteligentes
                 td 3.39% + $1.000 COP para negocios Online o 3.39% + $100 COP para puntos de venta. Si las ventas son superiores a $10 millones al mes, este valor puede renegociarse.
               tr
-                th Wompi
-                td PENDIENTE
+                th.text-center Wompi
+                td 
+                  | Su tarifa depende de la frecuencia con la que pondrán el dinero en tu cuenta: Diario: 2,85% + $800 + IVA
+                  br
+                  br
+                  |Semanal: 2,75% + $700 + IVA
+                  br
+                  br
+                  |Mensual: 2,65% + $700 + IVA
+                  br
+                  br
+                  |Es importante anotar que el IVA en esta pasarela y en las demás es sobre el valor de la tarifa.
               tr
-                th Stripe
-                td PENDIENTE
+                th.text-center Stripe
+                td 
+                  |Como es una pasarela internacional, el cobro de la parte no variable es en dólares: 2.9 % + USD0.30
+                  br
+                  br
+                  |Se pueden diseñar paquetes personalizados, para reducir el costo. Tienen descuentos por volumen, tasas específicas por país, descuentos por varios productos y tarifas de intercambio.
 
     .h6.mb-3 Procedimiento pagos pasarela
-    p.mb-5 : la pasarela de pago cumple una función importante durante el proceso de pago, es quien genera la autorización de la compra o venta, la información del sistema de pago del sitio web del comerciante es enviada a la pasarela de pago por el carrito de la compra que verifica la información de la tarjeta y envía una solicitud al banco del titular de la tarjeta para que ésta sea cargada. Si los datos de la entidad financiera son válidos y los fondos del cliente son suficientes, envía una aprobación a la pasarela de pago, que a su vez se comunica con el carrito de la compra y confirma la autorización de la compra. La pasarela de pago inicia entonces una liquidación del pago (transferencia de fondos) para permitir la transferencia de fondos de la cuenta de la tarjeta de crédito del cliente a la cuenta bancaria del comerciante. 
+    p.mb-5 : la pasarela de pago cumple una función importante durante el proceso de pago, es quien genera la autorización de la compra o venta, la información del sistema de pago del sitio web del comerciante es enviada a la pasarela de pago por el carrito de la compra que verifica la información de la tarjeta y envía una solicitud al banco del titular de la tarjeta para que ésta sea cargada. Si los datos de la entidad financiera son válidos y los fondos del cliente son suficientes, envía una aprobación a la pasarela de pago, que a su vez se comunica con el carrito de la compra y confirma la autorización de la compra. La pasarela de pago inicia entonces una liquidación del pago (transferencia de fondos) para permitir la transferencia de fondos de la cuenta de la tarjeta de crédito del cliente a la cuenta bancaria del comerciante.
 
     .h6.text-center.mb-5 Esquema funcionamiento
     .row.mb-5.justify-content-center
@@ -175,78 +201,67 @@
     p.mb-4 La Superintendencia de industria y comercio (s,f,) establece los pasos para las transacciones de pago :
 
     .tarjeta.tarjeta--gris.p-4.mb-5
-    //- PasosB debe ir acompañado de una de una de estas clases => 
-    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    PasosB.color-acento-contenido
+      PasosB.color-acento-contenido
+        .row(titulo='Pasos')
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema3/img6.svg', alt='pendiente')
+          .col-md-8.mb-4.mb-md-0.align-self-center
+            p Se ingresa a la plataforma e-comercio y el comprador escoge los productos, selecciona opción de pago donde la página del proveedor direcciona a la pasarela de pagos.
 
-      .row(titulo="Palabra")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/curso/tema3/img5.svg', alt='pendiente')
-            figcaption Leyenda de la imagen
+        .row(titulo='Pasos')
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema3/img7.svg', alt='pendiente')
+          .col-md-8.mb-4.mb-md-0.align-self-center
+            p En la web ya ubicada en pasarela de pagos, el comprador suministra la información del medio de pago y el sistema lo terminar proceso acorde a sistema escogido.
 
+        .row(titulo='Pasos')
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema3/img8.svg', alt='pendiente')
+          .col-md-8.mb-4.mb-md-0.align-self-center
+            p Estos pasos identifican las redes bancarias y dan paso a la aceptación de la transacción acorde medio seleccionado en el punto 2.
 
-      .row(titulo="I think it needs to be")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/curso/tema3/img5.svg', alt='pendiente')
-            figcaption Leyenda de la imagen
+        .row(titulo='Pasos')
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema3/img9.svg', alt='pendiente')
+          .col-md-8.mb-4.mb-md-0.align-self-center
+            p El sistema financiero genera aprobación o declinación de la transacción efectuada.
 
+        .row(titulo='Pasos')
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema3/img10.svg', alt='pendiente')
+          .col-md-8.mb-4.mb-md-0.align-self-center
+            p El sistema envía contestación al banco por medio de la pasarela de pagos.
 
-      .row(titulo="I have selected those elements")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/curso/tema3/img5.svg', alt='pendiente')
-            figcaption Leyenda de la imagen
+        .row(titulo='Pasos')
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema3/img11.svg', alt='pendiente')
+          .col-md-8.mb-4.mb-md-0.align-self-center
+            p La pasarela de pagos genera comunicación informando a las partes del resultado de la operación.
 
-      div(titulo="Etiam eu mauris sit amet")
-        figure
-          img(src='@/assets/curso/tema3/img5.svg', alt='pendiente')
-          figcaption Leyenda de la imagen
-
-      .row(titulo="Praesent luctus")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/curso/tema3/img5.svg', alt='pendiente')
-            figcaption Leyenda de la imagen
-
-      div(titulo="arcu porta, vel finibus eros posuere")
-        figure
-          img(src='@/assets/curso/tema3/img5.svg', alt='pendiente')
-          figcaption Leyenda de la imagen
-
-      div(titulo="Praesent")
-        figure
-          img(src='@/assets/curso/tema3/img5.svg', alt='pendiente')
-          figcaption Leyenda de la imagen
-
-      div(titulo="Sed vehicula velit vel arcu porta,")
-        figure
-          img(src='@/assets/curso/tema3/img5.svg', alt='pendiente')
-          figcaption Leyenda de la imagen
-      div(titulo="Sed vehicula velit vel arcu porta,")
-        figure
-          img(src='@/assets/curso/tema3/img5.svg', alt='pendiente')
-          figcaption Leyenda de la imagen
-
+        .row(titulo='Pasos')
+          .col-md-4
+            figure
+              img(src='@/assets/curso/tema3/img12.svg', alt='pendiente')
+          .col-md-8.mb-4.mb-md-0.align-self-center
+            p Una vez aceptada la operación se abona en la entidad financiera referenciada por el vendedor.
 
     figure.mb-5
       .video
-        iframe(width="734" height="413" src="https://www.youtube.com/embed/Vmg0zJX69Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
+        iframe(
+          width='734',
+          height='413',
+          src='https://www.youtube.com/embed/Vmg0zJX69Qc',
+          title='YouTube video player',
+          frameborder='0',
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+          allowfullscreen
+        )
 </template>
 
 <script>
