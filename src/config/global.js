@@ -231,32 +231,29 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Pasarela de pagos',
+      tipo: 'Comunicación',
+      link: 'https://www.banrep.gov.co/es/node/40991',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Corrales, 2019. Conoce 16 de las mejores herramientas del Marketing Digital para potenciar tu estrategia online',
+      tipo: 'Blog',
+      descarga:
+        'https://rockcontent.com/es/blog/herramientas-de-marketing-digital/',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Observatorio e-commerce, 2018. Manual	de buenas prácticas de las pasarelas de pago en Colombia ',
+      tipo: 'Manual',
+      link:
+        'https://www.observatorioecommerce.com.co/wp-content/uploads/2018/10/Manual-Buenas-Practicas-Pasarelas.pdf',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Cámara de representantes, (2021). Pasarelas de pagos.',
+      tipo: 'Proyecto de ley',
+      descarga:
+        'https://www.camara.gov.co/por-medio-del-cual-se-regula-la-operacion-de-las-pasarelas-de-pagos-en-colombia',
     },
   ],
 }

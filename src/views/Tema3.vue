@@ -105,7 +105,7 @@
             caption Tabla 2: Modelos gateway y agregadorg
             thead.text-center
               tr
-                th(
+                th.text-center(
                   style='width: 50%; background-color: #7b3cee; color: white; padding: 1rem 0.5rem'
                 ) Modelo gateway
                 th(
@@ -113,19 +113,19 @@
                 ) Modelo agregador
             tbody.text-center
               tr
-                td Dinero en cuentas propias
+                th.text-center(style="font-weight: normal; font-size: 16px;") Dinero en cuentas propias
                 td Dinero en cuentas propias	Dinero en cuentas de pasarela de pagos
               tr
-                td Afiliación al sistema financiero
+                th.text-center(style="font-weight: normal; font-size: 16px;") Afiliación al sistema financiero
                 td Afiliación al sistema financiero	No requiere de afiliación al sistema financiero
               tr
-                td Costo por transacción con un mínimo mensual
+                th.text-center(style="font-weight: normal; font-size: 16px;") Costo por transacción con un mínimo mensual
                 td Costo porcentual más la transacción. No existe un cargo fijo mensual
               tr
-                td Se debe realizar administración del dinero
+                th.text-center(style="font-weight: normal; font-size: 16px;") Se debe realizar administración del dinero
                 td El dinero se recauda en la pasarela de manera directa
               tr
-                td Opera a través del sistema financiero
+                th.text-center(style="font-weight: normal; font-size: 16px;") Opera a través del sistema financiero
                 td Opera a través del sistema financiero
 
     .cajon.color-secundario.p-4.mb-5
@@ -138,7 +138,7 @@
             caption Tabla 3: Tarifas de transacciones
             thead.text-center
               tr
-                th(
+                th.text-center(
                   style='width: 30%; background-color: #7b3cee; color: white; padding: 1rem 0.5rem'
                 ) Empresa
                 th(
@@ -146,13 +146,13 @@
                 ) Tarifas de las transacciones en modelo agregador
             tbody
               tr
-                th.text-center Placetopay Evertec
+                th.text-center(style="font-weight: normal; font-size: 16px;") Placetopay Evertec
                 td Varían de acuerdo al monto recaudado o al medio de pago elegido. Generalmente es 3.5% + $1.050 (mínimo $3.000 pesos) sobre el valor de la venta, aunque esta tarifa podría bajar según las especificaciones de tu negocio.
               tr
-                th.text-center PayU
+                th.text-center(style="font-weight: normal; font-size: 16px;") PayU
                 td Si vendes menos de $100 millones al mes, la tarifa es 3,49% + $900. En caso de superar esa cifra de ventas, hay flexibilidad para renegociar los precios.
               tr
-                th.text-center EpayCo
+                th.text-center(style="font-weight: normal; font-size: 16px;") EpayCo
                 td 
                   | Esta pasarela tiene dos tarifas dependiendo de si tienes o no cuenta en Davivienda: Otros bancos: 2.99 % + $900 por transacción exitosa.
 
@@ -160,14 +160,14 @@
                   br
                   | Cuenta en Davivienda: 2.68 % + $900 por transacción exitosa con cuatro retiros gratis al mes.
               tr
-                th.text-center Zona Pagos
+                th.text-center(style="font-weight: normal; font-size: 16px;") Zona Pagos
                 td No especifican los precios en su web.
 
               tr
-                th.text-center Pagos Inteligentes
+                th.text-center(style="font-weight: normal; font-size: 16px;") Pagos Inteligentes
                 td 3.39% + $1.000 COP para negocios Online o 3.39% + $100 COP para puntos de venta. Si las ventas son superiores a $10 millones al mes, este valor puede renegociarse.
               tr
-                th.text-center Wompi
+                th.text-center(style="font-weight: normal; font-size: 16px;") Wompi
                 td 
                   | Su tarifa depende de la frecuencia con la que pondrán el dinero en tu cuenta: Diario: 2,85% + $800 + IVA
                   br
@@ -180,7 +180,7 @@
                   br
                   |Es importante anotar que el IVA en esta pasarela y en las demás es sobre el valor de la tarifa.
               tr
-                th.text-center Stripe
+                th.text-center(style="font-weight: normal; font-size: 16px;") Stripe
                 td 
                   |Como es una pasarela internacional, el cobro de la parte no variable es en dólares: 2.9 % + USD0.30
                   br

@@ -124,41 +124,41 @@
       .col-lg-10.align-self-center
         .tabla-b.mb-5  
           table
-            caption Evolución del marketing
+            caption Tabla 1: Evolución del marketing
             thead.text-center
               tr
-                th(style="width:50%; background-color:#7b3cee; color:white; padding:1rem 0.5rem") Marketing en el pasado
+                th.text-center(style="width:50%; background-color:#7b3cee; color:white; padding:1rem 0.5rem") Marketing en el pasado
                 th(style="width:50%; background-color:#7b3cee; color:white; padding:1rem 0.5rem") Marketing en el presente y futuro
             tbody.text-center
               tr
-                td Producir y vender
+                th.text-center(style="font-weight: normal; font-size: 16px;") Producir y vender
                 td Sentir y responder
               tr
-                td Poseer activos y propiedades físicas
+                th.text-center(style="font-weight: normal; font-size: 16px;") Poseer activos y propiedades físicas
                 td Poseer marcas y propiedades intelectuales
               tr
-                td Marketing masivo
+                th.text-center(style="font-weight: normal; font-size: 16px;") Marketing masivo
                 td Marketing personalizado
               tr
-                td Operar en un solo mercado (físico)
+                th.text-center(style="font-weight: normal; font-size: 16px;") Operar en un solo mercado (físico)
                 td Operar en un solo mercado (físico)	Operar en varios mercados (incluidos virtuales)
               tr
-                td Centrarse en atraer clientes
+                th.text-center(style="font-weight: normal; font-size: 16px;") Centrarse en atraer clientes
                 td Centrarse en retenerlos
               tr
-                td Marketing de transacción
+                th.text-center(style="font-weight: normal; font-size: 16px;") Marketing de transacción
                 td Marketing de relación
               tr
-                td Monólogo del vendedorr
+                th.text-center(style="font-weight: normal; font-size: 16px;") Monólogo del vendedorr
                 td Diálogo con el cliente
               tr
-                td Plan de comunicaciones aislado
+                th.text-center(style="font-weight: normal; font-size: 16px;") Plan de comunicaciones aislado
                 td Comunicaciones de marketing integradas
               tr
-                td Marketing de producto
+                th.text-center(style="font-weight: normal; font-size: 16px;") Marketing de producto
                 td Marketing de cliente
               tr
-                td Explotar proveedores y distribuidores 
+                th.text-center(style="font-weight: normal; font-size: 16px;") Explotar proveedores y distribuidores 
                 td Colaborar con el cliente
 
 </template>
