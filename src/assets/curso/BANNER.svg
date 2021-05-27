@@ -1,0 +1,26 @@
+<svg id="BANNER" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1323.667" height="545" viewBox="0 0 1323.667 545">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_99504" data-name="Trazado 99504" d="M1302.822,0H20.845C9.328,0,0,9.033,0,20.185v504.63C0,535.967,9.328,545,20.845,545H1302.822c11.517,0,20.845-9.033,20.845-20.185V20.185C1323.667,9.033,1314.339,0,1302.822,0Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7b3cee"/>
+      <stop offset="1" stop-color="#490caa"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Trazado_99506" data-name="Trazado 99506" d="M20.845,0H1302.822c11.517,0,20.845,9.033,20.845,20.185v504.63c0,11.152-9.328,20.185-20.845,20.185H20.845C9.328,545,0,535.967,0,524.815V20.185C0,9.033,9.328,0,20.845,0Z"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_53306" data-name="Grupo 53306" clip-path="url(#clip-path)">
+    <path id="Trazado_99503" data-name="Trazado 99503" d="M1302.822,0H20.845C9.328,0,0,9.033,0,20.185v504.63C0,535.967,9.328,545,20.845,545H1302.822c11.517,0,20.845-9.033,20.845-20.185V20.185C1323.667,9.033,1314.339,0,1302.822,0Z" fill="url(#linear-gradient)"/>
+  </g>
+  <g id="Grupo_53307" data-name="Grupo 53307" clip-path="url(#clip-path-2)">
+    <path id="Trazado_99505" data-name="Trazado 99505" d="M280.363,1.84h0c0,39.674-46.182,71.839-103.163,71.839H.09V1.84Z" transform="translate(0.004 0.017)" fill="#460e9f"/>
+  </g>
+  <g id="Grupo_53308" data-name="Grupo 53308" clip-path="url(#clip-path-2)">
+    <path id="Trazado_99507" data-name="Trazado 99507" d="M768.8,494.637h0c0,26.029-21.773,47.122-48.642,47.122H535.18c0-45.709,38.24-82.759,85.413-82.759H732.021C752.334,459,768.8,474.956,768.8,494.637Z" transform="translate(22.615 4.25)" fill="#5515ba"/>
+  </g>
+  <g id="Grupo_53309" data-name="Grupo 53309" clip-path="url(#clip-path-2)">
+    <path id="Trazado_99509" data-name="Trazado 99509" d="M1033,41.766h0c0-22.052,18.448-39.926,41.211-39.926h156.735c0,38.725-32.4,70.123-72.375,70.123h-94.408C1046.956,71.953,1033,58.439,1033,41.766Z" transform="translate(43.652 0.017)" fill="#681ae6"/>
+  </g>
+</svg>
