@@ -188,7 +188,7 @@
                   |Se pueden diseñar paquetes personalizados, para reducir el costo. Tienen descuentos por volumen, tasas específicas por país, descuentos por varios productos y tarifas de intercambio.
 
     .h6.mb-3 Procedimiento pagos pasarela
-    p.mb-5 : la pasarela de pago cumple una función importante durante el proceso de pago, es quien genera la autorización de la compra o venta, la información del sistema de pago del sitio web del comerciante es enviada a la pasarela de pago por el carrito de la compra que verifica la información de la tarjeta y envía una solicitud al banco del titular de la tarjeta para que ésta sea cargada. Si los datos de la entidad financiera son válidos y los fondos del cliente son suficientes, envía una aprobación a la pasarela de pago, que a su vez se comunica con el carrito de la compra y confirma la autorización de la compra. La pasarela de pago inicia entonces una liquidación del pago (transferencia de fondos) para permitir la transferencia de fondos de la cuenta de la tarjeta de crédito del cliente a la cuenta bancaria del comerciante.
+    p.mb-5 La pasarela de pago cumple una función importante durante el proceso de pago, es quien genera la autorización de la compra o venta, la información del sistema de pago del sitio web del comerciante es enviada a la pasarela de pago por el carrito de la compra que verifica la información de la tarjeta y envía una solicitud al banco del titular de la tarjeta para que ésta sea cargada. Si los datos de la entidad financiera son válidos y los fondos del cliente son suficientes, envía una aprobación a la pasarela de pago, que a su vez se comunica con el carrito de la compra y confirma la autorización de la compra. La pasarela de pago inicia entonces una liquidación del pago (transferencia de fondos) para permitir la transferencia de fondos de la cuenta de la tarjeta de crédito del cliente a la cuenta bancaria del comerciante.
 
     .h6.text-center.mb-5 Esquema funcionamiento
     .row.mb-5.justify-content-center
@@ -202,49 +202,49 @@
 
     .tarjeta.tarjeta--gris.p-4.mb-5
       PasosB.color-acento-contenido
-        .row(titulo='Pasos')
+        .row(titulo='')
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/img6.svg', alt='pendiente')
           .col-md-8.mb-4.mb-md-0.align-self-center
             p Se ingresa a la plataforma e-comercio y el comprador escoge los productos, selecciona opción de pago donde la página del proveedor direcciona a la pasarela de pagos.
 
-        .row(titulo='Pasos')
+        .row(titulo='')
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/img7.svg', alt='pendiente')
           .col-md-8.mb-4.mb-md-0.align-self-center
             p En la web ya ubicada en pasarela de pagos, el comprador suministra la información del medio de pago y el sistema lo terminar proceso acorde a sistema escogido.
 
-        .row(titulo='Pasos')
+        .row(titulo='')
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/img8.svg', alt='pendiente')
           .col-md-8.mb-4.mb-md-0.align-self-center
             p Estos pasos identifican las redes bancarias y dan paso a la aceptación de la transacción acorde medio seleccionado en el punto 2.
 
-        .row(titulo='Pasos')
+        .row(titulo='')
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/img9.svg', alt='pendiente')
           .col-md-8.mb-4.mb-md-0.align-self-center
             p El sistema financiero genera aprobación o declinación de la transacción efectuada.
 
-        .row(titulo='Pasos')
+        .row(titulo='')
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/img10.svg', alt='pendiente')
           .col-md-8.mb-4.mb-md-0.align-self-center
             p El sistema envía contestación al banco por medio de la pasarela de pagos.
 
-        .row(titulo='Pasos')
+        .row(titulo='')
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/img11.svg', alt='pendiente')
           .col-md-8.mb-4.mb-md-0.align-self-center
             p La pasarela de pagos genera comunicación informando a las partes del resultado de la operación.
 
-        .row(titulo='Pasos')
+        .row(titulo='')
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/img12.svg', alt='pendiente')

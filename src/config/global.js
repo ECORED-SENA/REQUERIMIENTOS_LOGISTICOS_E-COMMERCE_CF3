@@ -142,7 +142,7 @@ export default {
       },
       {
         nombre: 'John Andres Ayala Angarita',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
