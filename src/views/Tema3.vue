@@ -23,10 +23,11 @@
     .h6.mb-2 Comportamiento del comercio electrónico por pandemia en Colombia
     .row.mb-5.justify-content-center
       .col-lg-5.align-self-center
-        figure
+        figure(style="text-align: -webkit-center;")
           img(
             src='@/assets/curso/tema3/img2.svg',
-            alt='Comportamiento del comercio electrónico'
+            alt='Comportamiento del comercio electrónico',
+            style="width: 420px;"
           )
       .col-lg-7.align-self-center
         P.mb-4 En los últimos tiempos, dígase desde el año 2020, desde la declaratoria del Covid-19 la economía a nivel mundial ha sufrido grandes cambios en la forma como se adquieren los productos, siendo una gran parte el comercio electrónico la elección más usada por consumidores y vendedores. Cientos de usuarios han optado por este medio como una vía de proseguir con el comercio de manera fiable y segura.
@@ -35,10 +36,10 @@
           p La nueva forma de comprar y la gestión optada por las empresas en el uso del comercio electrónico, suple las nuevas necesidades de los compradores compitiendo con tecnología moderna, servicio al cliente y seguridad en las operaciones lo que hace que los clientes tengan una manera diferente de consumo a través de los diferentes canales digitales.
 
     .h6.mb-2 Pasarelas de pago en el mercado
-    .row.mb-4.justify-content-center
+    .row.mb-0.justify-content-center
       .col-lg-7.align-self-center
         P.mb-4 Una pasarela de pago, también es conocida como procesador o procesador de tarjetas de crédito o cuenta débito; conecta el sitio web y el carro de la compra del comerciante, el banco adquirente (comerciante) y el banco emisor (titular de la tarjeta). La pasarela de pago gestiona todos los mensajes de comunicación entre estas entidades en el proceso y la liquidación del pago, siendo este, el eslabón clave de una transacción en línea. Las pasarelas más reconocidas en Colombia son:
-        .row.entre-espacio.mb-5
+        .row.entre-espacio.mb-4
           .col-auto.align-self-center
             ol.lista-ol--cuadro
               li 
@@ -81,13 +82,14 @@
                   span 9
                 | Stripe en Colombia
 
-      .col-lg-5.align-self-center
+      .col-lg-5.align-self-center.mb-4
         figure
           img(
             src='@/assets/curso/tema3/img3.svg',
             alt=' Pasarelas de pago en el mercado'
           )
-    p.mb-5 Actualmente en las plataformas que ofrece el mercado, no hay límite para ofrecer productos, sin embargo la cantidad de información afecta la estructura y puede influir en la velocidad de carga de las páginas y afectar la experiencia de los usuarios.
+    p.mb-5 Actualmente en las plataformas que ofrece el mercado, no hay límite para ofrecer productos, sin embargo, la cantidad de información afecta la estructura y puede influir en la velocidad de carga de las páginas y afectar la experiencia de los usuarios.
+    
     .h6.mb-5.text-center Flujo de actividades de pasarela de pagos
     .row.mb-5.justify-content-center
       .col-lg-12.align-self-center
@@ -102,7 +104,7 @@
       .col-lg-10.align-self-center
         .tabla-b.mb-5 
           table
-            caption Tabla 2: Modelos gateway y agregadorg
+            caption Modelos gateway y agregadorg
             thead.text-center
               tr
                 th.text-center(
@@ -114,10 +116,10 @@
             tbody.text-center
               tr
                 th.text-center(style="font-weight: normal; font-size: 16px;") Dinero en cuentas propias
-                td Dinero en cuentas propias	Dinero en cuentas de pasarela de pagos
+                td Dinero en cuentas de pasarela de pagos
               tr
                 th.text-center(style="font-weight: normal; font-size: 16px;") Afiliación al sistema financiero
-                td Afiliación al sistema financiero	No requiere de afiliación al sistema financiero
+                td No requiere de afiliación al sistema financiero
               tr
                 th.text-center(style="font-weight: normal; font-size: 16px;") Costo por transacción con un mínimo mensual
                 td Costo porcentual más la transacción. No existe un cargo fijo mensual
@@ -135,7 +137,7 @@
       .col-lg-10.align-self-center
         .tabla-b.mb-5 
           table
-            caption Tabla 3: Tarifas de transacciones
+            caption Tarifas de transacciones
             thead.text-center
               tr
                 th.text-center(
@@ -186,6 +188,9 @@
                   br
                   br
                   |Se pueden diseñar paquetes personalizados, para reducir el costo. Tienen descuentos por volumen, tasas específicas por país, descuentos por varios productos y tarifas de intercambio.
+                  br
+                  br
+                  |Esta pasarela no te cobra IVA en Colombia, ya que es internacional. Recuerda que necesitas constituir tu empresa en EEUU y esto tiene muchos beneficios, incluso tributarios, sobre todo cuando vendes en el mundo.
 
     .h6.mb-3 Procedimiento pagos pasarela
     p.mb-5 La pasarela de pago cumple una función importante durante el proceso de pago, es quien genera la autorización de la compra o venta, la información del sistema de pago del sitio web del comerciante es enviada a la pasarela de pago por el carrito de la compra que verifica la información de la tarjeta y envía una solicitud al banco del titular de la tarjeta para que ésta sea cargada. Si los datos de la entidad financiera son válidos y los fondos del cliente son suficientes, envía una aprobación a la pasarela de pago, que a su vez se comunica con el carrito de la compra y confirma la autorización de la compra. La pasarela de pago inicia entonces una liquidación del pago (transferencia de fondos) para permitir la transferencia de fondos de la cuenta de la tarjeta de crédito del cliente a la cuenta bancaria del comerciante.
@@ -214,14 +219,14 @@
             figure
               img(src='@/assets/curso/tema3/img7.svg', alt='pendiente')
           .col-md-8.mb-4.mb-md-0.align-self-center
-            p En la web ya ubicada en pasarela de pagos, el comprador suministra la información del medio de pago y el sistema lo terminar proceso acorde a sistema escogido.
+            p En la web ya ubicada en pasarela de pagos, el comprador suministra la información del medio de pago y el sistema lo termina el proceso acorde al sistema escogido.
 
         .row(titulo='')
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/img8.svg', alt='pendiente')
           .col-md-8.mb-4.mb-md-0.align-self-center
-            p Estos pasos identifican las redes bancarias y dan paso a la aceptación de la transacción acorde medio seleccionado en el punto 2.
+            p Estos pasos identifican las redes bancarias y dan paso a la aceptación de la transacción acorde al medio seleccionado en el punto 2.
 
         .row(titulo='')
           .col-md-4

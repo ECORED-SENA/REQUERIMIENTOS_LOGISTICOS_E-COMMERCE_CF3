@@ -30,7 +30,7 @@
             img(src='@/assets/curso/tema1/img2.svg', alt='comercio electronico') 
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p Este tipo de comercio ofrece más velocidad y facilidad para todo el proceso en comparación con método comercial tradicional, no se tiene que estar presente físicamente o cara a cara para completar una compra, el comercio electrónico también ha demostrado ser el mejor método para operar negocios en esta era de la globalización donde los negocios son ilimitados para todos, pues permite realizarse por medio de plataformas de pago que facilitan las operaciones, el valor producto de las transacciones lo recibe directamente el vendedor en la cuenta registrada en la plataforma de comercio.
+            p Este tipo de comercio ofrece más velocidad y facilidad para todo el proceso en comparación con el método comercial tradicional, no se tiene que estar presente físicamente o cara a cara para completar una compra, el comercio electrónico también ha demostrado ser el mejor método para operar negocios en esta era de la globalización donde los negocios son ilimitados para todos, pues permite realizarse por medio de plataformas de pago que facilitan las operaciones, el valor producto de las transacciones lo recibe directamente el vendedor en la cuenta registrada en la plataforma de comercio.
               
     
     p.mb-4 Desde esta perspectiva se hace necesario hablar de marketing para este tipo de comercios, el cual permite desarrollarse de una forma integrada en la organización de las empresas que interactúan con su medio ambiente y las cuales reciben en forma de insumos de energía, la información y los materiales, que a su vez producen salidas en forma de productos y servicios, en este sentido, el sistema actúa como un conjunto de funciones que transforma los elementos de entrada en resultados o elementos de salida para la comercialización.
@@ -258,13 +258,13 @@
         figure
           img(src='@/assets/curso/tema1/img7.svg', alt='Elementos marketing')
 
-    p.mb-5 La finalidad última del concepto de marketing es ayudar a las organizaciones a alcanzar sus objetivos. En el caso de las empresas privadas, el objetivo principal es el beneficio; en el caso de las organizaciones públicas y sin ánimo de lucro, es sobrevivir y atraer fondos suficientes para para llevar a cabo un trabajo útil. Las empresas privadas deben aspirar a obtener beneficios como consecuencia de la creación de valor superior para el cliente, satisfaciendo sus necesidades mejor que los competidores. En este sentido, el marketing ya no es una actividad enfocada al producto, es el centro de la estrategia basada en conceptos tradicionales para toda actividad de los clientes para suplir necesidades, inquietudes e integrar los hábitos y las costumbres digitales. El objetivo es relacionarse de manera activa continua y recíproca con el mercado.
+    p.mb-5 La finalidad última del concepto de marketing es ayudar a las organizaciones a alcanzar sus objetivos. En el caso de las empresas privadas, el objetivo principal es el beneficio; en el caso de las organizaciones públicas y sin ánimo de lucro, es sobrevivir y atraer fondos suficientes para para llevar a cabo un trabajo útil. Las empresas privadas deben aspirar a obtener beneficios como consecuencia de la creación de valor superior para el cliente, satisfaciendo sus necesidades mejor que los competidores. En este sentido, el marketing ya no es una actividad enfocada al producto, es el centro de la estrategia basada en conceptos tradicionales para toda actividad de los clientes para suplir necesidades, inquietudes e integrar los hábitos y las costumbres digitales. El objetivo es relacionarse de manera activa, continua y recíproca con el mercado.
     
     .row.mb-4.justify-content-center
       .col-lg-10.align-self-center
         .tabla-b.mb-5  
           table
-            caption Tabla 1: Evolución del marketing
+            caption Evolución del marketing
             thead.text-center
               tr
                 th.text-center(style="width:50%; background-color:#7b3cee; color:white; padding:1rem 0.5rem") Marketing en el pasado
@@ -281,7 +281,7 @@
                 td Marketing personalizado
               tr
                 th.text-center(style="font-weight: normal; font-size: 16px;") Operar en un solo mercado (físico)
-                td Operar en un solo mercado (físico)	Operar en varios mercados (incluidos virtuales)
+                td 	Operar en varios mercados (incluidos virtuales)
               tr
                 th.text-center(style="font-weight: normal; font-size: 16px;") Centrarse en atraer clientes
                 td Centrarse en retenerlos
@@ -289,7 +289,7 @@
                 th.text-center(style="font-weight: normal; font-size: 16px;") Marketing de transacción
                 td Marketing de relación
               tr
-                th.text-center(style="font-weight: normal; font-size: 16px;") Monólogo del vendedorr
+                th.text-center(style="font-weight: normal; font-size: 16px;") Monólogo del vendedor
                 td Diálogo con el cliente
               tr
                 th.text-center(style="font-weight: normal; font-size: 16px;") Plan de comunicaciones aislado

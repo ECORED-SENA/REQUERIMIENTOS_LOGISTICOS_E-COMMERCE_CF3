@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Marketing y estrategias, pasarelas de pago y normativa para e-commerce',
     descripcionCurso:
-      'El marketing digital es el método para hacer negociaciones a nivel global, posee una variedad de herramientas de contacto inmediato con cualquier persona en cualquier lugar del mundo y las redes pueden crear negociaciones utilizando diversos sistemas para captar clientes creando negocios exitosos en cualquier lugar del mundo, analizando ideas y potenciarlas con técnicas de mercadeo es por eso que en este componente se exponen los principales elementos para conocimiento profundo del marketing, sus pasarelas y  normatividad vigente.',
+      'El marketing digital es el método para hacer negociaciones a nivel global, posee una variedad de herramientas de contacto inmediato con cualquier persona en cualquier lugar del mundo y las redes pueden crear negociaciones utilizando diversos sistemas para captar clientes creando negocios exitosos en cualquier lugar del mundo, analizando ideas y potenciarlas con técnicas de mercadeo es por eso que en este componente se exponen los principales elementos para el conocimiento profundo del marketing, sus pasarelas y  normatividad vigente.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/BANNER.svg'),
   },
@@ -92,7 +92,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
+        cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -223,7 +223,7 @@ export default {
       texto:
         'Corrales, 2019. Conoce 16 de las mejores herramientas del Marketing Digital para potenciar tu estrategia online',
       tipo: 'Blog',
-      descarga:
+      link:
         'https://rockcontent.com/es/blog/herramientas-de-marketing-digital/',
     },
     {
@@ -236,7 +236,7 @@ export default {
     {
       texto: 'Cámara de representantes, (2021). Pasarelas de pagos.',
       tipo: 'Proyecto de ley',
-      descarga:
+      link:
         'https://www.camara.gov.co/por-medio-del-cual-se-regula-la-operacion-de-las-pasarelas-de-pagos-en-colombia',
     },
   ],

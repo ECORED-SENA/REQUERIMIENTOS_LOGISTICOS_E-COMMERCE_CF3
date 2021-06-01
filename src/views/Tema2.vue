@@ -11,7 +11,7 @@
       .col-lg-7.align-self-center
         p.mb-4 Se define la estrategia de e-commerce como un análisis que involucra todos los aspectos de la actividad comercial y lo combina de forma que todos los departamentos sepan lo que está pasando. Los elementos clave de la estrategia digital consisten en revisar y alinear el eje principal de su estrategia de marketing en un contexto online, es importante asegurarse de basarse en otros planes, si no hay ninguno, se debe utilizar de encabezados. En este sentido es importante conservar cada detalle de esta fase, pues se consideran tácticas.
         .cajon.color-acento-contenido.p-4
-          p Es así, como es fundamental poder resumir la esencia de algunas o todas las estrategias digitales que aparecen a continuación, a partir de la problematización frente a: ¿cómo va a aprovechar el potencial del marketing digital para su negocio y cómo cumple los objetivos?, es importante entonces definir de qué se trata únicamente de su enfoque, no de los detalles. Por ello también se debe considerar la posibilidad de desglosarlo, a menudo es más fácil explicarlo en trozos más pequeños, esto también ayuda cuando se trata de las tácticas que deben incluir de las siguientes estrategias:
+          p Es así, como es fundamental poder resumir la esencia de algunas o todas las estrategias digitales que aparecen a continuación, a partir de la problematización frente a: ¿cómo va a aprovechar el potencial del marketing digital para su negocio y cómo cumple los objetivos?, es importante entonces definir de qué se trata únicamente de su enfoque, no de los detalles. Por ello también se debe considerar la posibilidad de desglosarlo, a menudo es más fácil explicarlo en trozos más pequeños, esto también ayuda cuando se trata de las tácticas que deben incluir en las siguientes estrategias:
       .col-lg-5.align-self-center
         figure
           img(
@@ -86,7 +86,7 @@
       div(titulo='Estrategia de marketing en redes sociales')
         .row.mb-4.justify-content-center
           .col-md-11.mb-4.mb-md-0
-            p el marketing en redes sociales forma parte de una estrategia más amplia de captación de clientes más amplia de captación de clientes, además de las estrategias de marca, adquisición, conversión y retención, pero muchas organizaciones están luchando por obtener valor de esto, por lo que puede ayudar a desarrollar una estrategia general de marketing en medios sociales.
+            p el marketing en redes sociales forma parte de una estrategia más amplia de captación de clientes, además de las estrategias de marca, adquisición, conversión y retención, pero muchas organizaciones están luchando por obtener valor de esto, por lo que puede ayudar a desarrollar una estrategia general de marketing en medios sociales.
 
     .cajon.color-secundario.p-4.mb-5
       p Algunos consejos generales para tener en cuenta en la planificación de estrategias
@@ -99,7 +99,7 @@
           .col-4
             img(src='@/assets/curso/tema2/img2.svg' alt='AvatarTop')
         .h6.text-center.mb-4 Empiece por el cliente
-        p.text-center.mb-2 Elabore su plan en torno a las ideas y necesidades del cliente, no en torno a sus tornos a sus productos y tácticas.
+        p.text-center.mb-2 Elabore su plan en torno a las ideas y necesidades del cliente, no en torno a sus productos y tácticas.
 
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-5.mt-4

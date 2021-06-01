@@ -8,14 +8,14 @@
         .h3 4
       .h3 Medidas de seguridad medios electrónicos (Leyes y normas vigentes en seguridad informática)
     
-    p.mb-4 Debido al constante avance de la tecnología, la seguridad informática en las empresas se ha convertido en un componente fundamental de manera que la información es considerada un bien sustancial, es decir un activo del negocio que requiere ser protegido de forma sistémica y segura para evitar cualquier tipo de fraude.
+    p.mb-4 Debido al constante avance de la tecnología, la seguridad informática en las empresas se ha convertido en un componente fundamental de manera que la información es considerada un bien sustancial, es decir, un activo del negocio que requiere ser protegido de forma sistémica y segura para evitar cualquier tipo de fraude.
 
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          figure
-            img(src='@/assets/curso/tema4/img1.svg', alt='comercio electronico') 
-        .col-lg-8
+        .col-lg-4.mb-4.mb-lg-0.align-self-center
+          figure(style="text-align:-webkit-center")
+            img(src='@/assets/curso/tema4/img1.svg', alt='comercio electronico', style="width:310px;") 
+        .col-lg-8.align-self-center
           .bloque-texto-a__texto.p-4
             p A medida que los delincuentes electrónicos se vuelven más hábiles en sus métodos, la industria necesita desarrollar nuevos métodos y procedimientos para garantizar la seguridad de sus clientes e información en línea. Por ejemplo, para combatir este problema, algunas empresas de tarjetas de crédito proporcionan ahora números de tarjeta de crédito temporales. Estos números pueden ayudar a aumentar la confianza del consumidor en el comerciante porque el número real de la tarjeta no se revela. Muchos bancos exigen más información que un nombre de usuario y una contraseña para proteger las cuentas en línea debido a la suplantación de identidad y otras estafas.
 
@@ -59,7 +59,7 @@
         p Los operadores de pasarelas de pago también pueden hacer uso del backup que consiste en una copia de los datos originales que se realiza con el fin de disponer de un sistema de respaldo en caso de pérdida, deterioro o robo de información. Este sistema puede hacer que una pasarela de pago que se ha visto afectada por un fallo de seguridad pueda recuperar su actividad diaria.
 
       .tarjeta.color-secundario.p-4(titulo="Ley y normatividad vigente")
-        p Además de las medidas de seguridad, es obligatorio que el negocio online tenga claro y cumpla con todas las medidas de carácter legal. En la actualidad en Colombia no se ha expedido una regulación específica sobre las condiciones de operación en las pasarelas de pago, no obstante, considerando que a través de él sigue así de una parte que permite a los clientes el pavo con instrumentos como tarjetas de débito crédito transferencias electrónicas entre otras siendo la puerta de entrada para los pagos. En la actualidad se encuentra en debate ante la cámara de representantes el proyecto ley por medio de la cual se regula la operación de las pasarelas de pagos en Colombia
+        p Además de las medidas de seguridad, es obligatorio que el negocio online tenga claro y cumpla con todas las medidas de carácter legal. En la actualidad en Colombia no se ha expedido una regulación específica sobre las condiciones de operación en las pasarelas de pago, no obstante, considerando que a través de ellas se permite a los clientes el pago con instrumentos como tarjetas de débito, crédito, transferencias electrónicas, entre otras, siendo la puerta de entrada para los pagos, actualmente, se encuentra en debate ante la Cámara de Representantes, el Proyecto Ley “Por medio del cual se regula la operación de las pasarelas de pagos en Colombia”.
 
 
 
