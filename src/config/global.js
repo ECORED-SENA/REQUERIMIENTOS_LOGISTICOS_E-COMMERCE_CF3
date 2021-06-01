@@ -230,8 +230,8 @@ export default {
       texto:
         'Observatorio e-commerce, 2018. Manual	de buenas prácticas de las pasarelas de pago en Colombia ',
       tipo: 'Manual',
-      link:
-        'https://www.observatorioecommerce.com.co/wp-content/uploads/2018/10/Manual-Buenas-Practicas-Pasarelas.pdf',
+      descarga:
+        '/downloads/Manual de Buenas Prácticas de Pasarelas de Pago.pdf',
     },
     {
       texto: 'Cámara de representantes, (2021). Pasarelas de pagos.',
