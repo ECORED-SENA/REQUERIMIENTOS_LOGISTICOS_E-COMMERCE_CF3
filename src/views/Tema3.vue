@@ -27,13 +27,13 @@
           img(
             src='@/assets/curso/tema3/img2.svg',
             alt='Comportamiento del comercio electrónico',
-            style="width: 420px;"
+            style="width: 440px;"
           )
       .col-lg-7.align-self-center
         P.mb-4 En los últimos tiempos, dígase desde el año 2020, desde la declaratoria del Covid-19 la economía a nivel mundial ha sufrido grandes cambios en la forma como se adquieren los productos, siendo una gran parte el comercio electrónico la elección más usada por consumidores y vendedores. Cientos de usuarios han optado por este medio como una vía de proseguir con el comercio de manera fiable y segura.
         p.mb-4 El sector más beneficiado son las grandes superficies, gracias a su respuesta oportuna en atender la demanda y en uso de las diferentes plataformas para acercamiento con los consumidores.
         .cajon.color-acento-contenido.p-4.mb-5
-          p La nueva forma de comprar y la gestión optada por las empresas en el uso del comercio electrónico, suple las nuevas necesidades de los compradores compitiendo con tecnología moderna, servicio al cliente y seguridad en las operaciones lo que hace que los clientes tengan una manera diferente de consumo a través de los diferentes canales digitales.
+          p La nueva forma de comprar y la gestión optada por las empresas en el uso del comercio electrónico, suple las nuevas necesidades de los compradores compitiendo con tecnología moderna, servicio al cliente y seguridad en las operaciones, lo que hace que los clientes tengan una manera diferente de consumo a través de los diferentes canales digitales.
 
     .h6.mb-2 Pasarelas de pago en el mercado
     .row.mb-0.justify-content-center
@@ -219,7 +219,7 @@
             figure
               img(src='@/assets/curso/tema3/img7.svg', alt='pendiente')
           .col-md-8.mb-4.mb-md-0.align-self-center
-            p En la web ya ubicada en pasarela de pagos, el comprador suministra la información del medio de pago y el sistema lo termina el proceso acorde al sistema escogido.
+            p En la web ya ubicada en pasarela de pagos, el comprador suministra la información del medio de pago y el sistema termina el proceso acorde al sistema escogido.
 
         .row(titulo='')
           .col-md-4
