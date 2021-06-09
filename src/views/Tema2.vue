@@ -42,10 +42,10 @@
               li.mb-4 #[span.li--clr.fa-li #[i.far.fa-check-circle]]#[strong Promoción:] analice los problemas y las oportunidades de la combinación de comunicaciones en línea. Estos se detallarán en las estrategias de comunicación de adquisición y retención. Revise los enfoques de las promociones y el mercadeo en línea para aumentar las ventas. Es posible que desee incluir promociones exclusivas para apoyar el crecimiento de los distintos canales digitales, es decir, correo electrónico móvil, Facebook, Twitter, entre otros.
           .col-md-5.mb-4.mb-md-0
             ul.fa-ul
-              li.mb-4 #[span.li--clr.fa-li #[i.far.fa-check-circle]]#[strong Personas] puede utilizar herramientas automatizadas, como las preguntas frecuentes, para ofrecer un autoservicio web, también ofrecer puntos de contacto en línea a través de un chat en vivo o una llamada telefónica.
-              li.mb-4 #[span.li--clr.fa-li #[i.far.fa-check-circle]]#[strong Procesos] enumere los componentes del proceso y comprenda la necesidad de integrarlos en un sistema.
-              li.mb-4 #[span.li--clr.fa-li #[i.far.fa-check-circle]]#[strong Pruebas fisicas] identifique los componentes digitales que dan "pruebas" a los clientes de su credibilidad, como los premios y los testimonios.
-              li.mb-4 #[span.li--clr.fa-li #[i.far.fa-check-circle]]#[strong Socios] gran parte del marketing actual se basa en asociaciones estratégicas, asociaciones estratégicas, matrimonios y alianzas de marketing que hemos añadido esta "P" como un ingrediente vital en la mezcla de marketing de hoy en día.
+              li.mb-4 #[span.li--clr.fa-li #[i.far.fa-check-circle]]#[strong Personas:] puede utilizar herramientas automatizadas, como las preguntas frecuentes, para ofrecer un autoservicio web, también ofrecer puntos de contacto en línea a través de un chat en vivo o una llamada telefónica.
+              li.mb-4 #[span.li--clr.fa-li #[i.far.fa-check-circle]]#[strong Procesos:] enumere los componentes del proceso y comprenda la necesidad de integrarlos en un sistema.
+              li.mb-4 #[span.li--clr.fa-li #[i.far.fa-check-circle]]#[strong Pruebas fisicas:] identifique los componentes digitales que dan "pruebas" a los clientes de su credibilidad, como los premios y los testimonios.
+              li.mb-4 #[span.li--clr.fa-li #[i.far.fa-check-circle]]#[strong Socios:] gran parte del marketing actual se basa en asociaciones estratégicas, asociaciones estratégicas, matrimonios y alianzas de marketing que hemos añadido esta "P" como un ingrediente vital en la mezcla de marketing de hoy en día.
 
       div(titulo='Estrategia de marca')
         .row.mb-4.justify-content-center
@@ -91,7 +91,7 @@
     .cajon.color-secundario.p-4.mb-5
       p Algunos consejos generales para tener en cuenta en la planificación de estrategias
     
-    .h5.text-center.mb-5 Planificacion estratégica
+    .h5.text-center.mb-5 Planificación estratégica
 
     .row.mb-5
       .col-md-6.col-lg.tarjeta--tabla.p-4
