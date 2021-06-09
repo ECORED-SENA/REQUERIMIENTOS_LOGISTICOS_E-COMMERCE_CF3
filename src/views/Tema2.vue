@@ -119,7 +119,7 @@
         .row.justify-content-center.mb-5.mt-4
           .col-4
             img(src='@/assets/curso/tema2/img5.svg' alt='AvatarTop')
-        .h6.text-center.mb-4 Mantena los planes actualizados
+        .h6.text-center.mb-4 Mantenga los planes actualizados
         p.text-center.mb-2 Revíselos y actualícese mensual o trimestralmente.
       .col-md-6.col-lg.tarjeta--tabla.p-4
         .row.justify-content-center.mb-5.mt-4
